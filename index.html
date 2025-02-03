@@ -4,18 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sweet Shop</title>
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
           <ul>
-            <img src="./img/logo.png" class="img-header" alt="logo" href="#home">
             <li><a href="#home">Início</a></li>
-            <li><a href="#destaques">Livros em Destaque</a></li>
-            <li><a href="#catalogo">Catálogo de Livros</a></li>
-            <img src="./img/cart.png" class="cart-header" alt="carrinho" href="cart.html">
+            <li><a href="#destaques">Doces</a></li>
+            <li><a href="#catalogo">Catálogo</a></li>
           </ul>
         </nav>
     </header>
@@ -39,6 +36,68 @@
             </div>
           </section>
         
+          <section id="catalogo">
+            <h1>Catálogo de Doces</h1>
+            <div class="catalogo-container">
+                <div class="produtos">
+                    <div class="produto" data-preco="13.00">
+                        <img src="./img/bolo1.jpg" alt="Bolo">
+                        <p>Bolo caseiro- R$ 13,00</p>
+                        <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto" data-preco="8.50">
+                        <img src="./img/cupcake.jpg" alt="Cupcake">
+                        <p>Cupcake de Baunilha - R$ 8,50</p>
+                        <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto" data-preco="29.00">
+                        <img src="./img/bolo2.jpg" alt="Bolo">
+                        <p>Bolo Confeitado - R$ 29,00</p>
+                        <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto" data-preco="10.00">
+                        <img src="./img/brownie.jpg" alt="Brownie">
+                        <p>Brownie de Chocolate - R$ 10,00</p>
+                        <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto" data-preco="16.50">
+                        <img src="./img/morango.jpg" alt="Morango">
+                        <p>Torta de Morango- R$ 16,50</p>
+                        <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto" data-preco="12.00">
+                        <img src="./img/macaron.jpg" alt="Macaron">
+                        <p>Macaron de Framboesa - R$ 12,00</p>
+                        <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto" data-preco="7.00">
+                        <img src="./img/sorvete.jpg" alt="Sorvete">
+                        <p>Sorvete de Morango- R$ 7,00</p>
+                        <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto" data-preco="18.50">
+                        <img src="./img/torta.jpg" alt="Torta">
+                        <p>Torta de Frutas Vermelhas - R$ 18,50</p>
+                        <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+                    </div>
+                    <div class="produto" data-preco="12.00">
+                        <img src="./img/tortinha.jpg" alt="tortinha">
+                        <p>Tortinha de Framboesa - R$ 12,00</p>
+                        <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+                    </div>
+                    
+                </div>
+                
+                <div class="carrinho">
+                    <h2>Meu Carrinho</h2>
+                    <ul id="itens-carrinho">
+                    </ul>
+                    <p><strong>Total: R$ <span id="total">0.00</span></strong></p>
+                </div>
+            </div>
+        </section>
+        
+
           
           <footer>
             <p>© 2025 Sweet Shop.  Todos os direitos reservados.</p>
