@@ -1,6 +1,6 @@
 # 🍭 Sweet Shop - Loja de Doces Online
 
-Bem-vindo ao **Sweet Bliss**, sua loja online de doces encantadores! 🍬✨
+Bem-vindo ao **Sweet Shop**, sua loja online de doces encantadores! 🍬✨
 
 ## 📌 Sobre o Projeto
 Este é um site de vendas de doces, desenvolvido com **HTML, CSS e JavaScript**. O objetivo é proporcionar uma experiência agradável para os clientes navegarem pelos produtos, adicioná-los ao carrinho e simular uma compra.

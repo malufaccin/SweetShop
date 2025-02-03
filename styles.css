@@ -1,0 +1,165 @@
+
+header {
+    align-items: center;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    background-color: #FF99C8; 
+    padding: 20px 20px; 
+    text-align: center; 
+    z-index: 1000;  
+}
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 80px;
+    margin: 80px;
+  }
+  
+  footer {
+    bottom: 0;
+    width: 100%; 
+    text-align: center;
+    background: #FF99C8;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #e27396;
+    font-style: italic;
+    text-shadow: #000000;
+    text-align: center;
+    padding-top: 70px;
+    background-color: #FFC8DD;
+    margin: 0;
+}
+
+ h1{
+    font-size: 35px;
+ }
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-color: #FF99C8;
+    border-style:double;
+    padding: 30px;
+    max-width: 3000px;
+    margin: auto;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 2000px;
+}
+
+.book {
+    min-width: 100px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.book img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.book img:hover {
+    transform: scale(1.1);
+}
+
+button {
+    background-color:#FFC8DD;
+    color:#FF99C8;
+    border: double;
+    border-color: #FF99C8; 
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 30%;
+}
+
+button:hover {
+    background-color: #FF99C8
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px double #FF99C8
+    background-color: #FFC8DD;
+    border-radius: 5px;
+}
+
+#bookList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+    border-color: #BDE0FE
+    border-style:double;
+    padding: 30px;
+}
+.book-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    background:#FFC8DD;
+    border-color: #000000
+    border-style:double;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 960px;
+    margin: auto;
+    text-align: left;
+}
+
+
+#home{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 300px;
+    background-color: #FF99C8;
+    opacity: 1;
+    background-image: linear-gradient(to right, #fcfcfc, #fcfcfc 18.5px, #FF99C8 18.5px, #FF99C8 );
+    background-size: 37px 100%;
+}
+h2{
+    color: #ffffff;
+    font-weight: 10;
+}
+.img-header{
+    height: 30px;
+}
